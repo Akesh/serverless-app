@@ -8,7 +8,7 @@ public class HelloUtil {
     private String message;
 
     public HelloUtil() {
-        this.message = "Hello Akesh";
+        this.message = "Hello";
     }
 
     public String getMessage() {

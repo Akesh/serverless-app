@@ -14,47 +14,33 @@ import java.util.Map;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-        "key3",
-        "key2",
-        "key1"
+        "fname",
+        "lname"
 })
 public class HelloRequest {
 
-    @JsonProperty("key3")
-    private String key3;
-    @JsonProperty("key2")
-    private String key2;
-    @JsonProperty("key1")
-    private String key1;
+    @JsonProperty("fname")
+    private String fname;
+    @JsonProperty("lname")
+    private String lname;
 
-    @JsonProperty("key3")
-    public String getKey3() {
-        return key3;
+    @JsonProperty("fname")
+    public String getFname() {
+        return fname;
     }
 
-    @JsonProperty("key3")
-    public void setKey3(String key3) {
-        this.key3 = key3;
+    @JsonProperty("fname")
+    public void setFname(String fname) {
+        this.fname = fname;
     }
 
-    @JsonProperty("key2")
-    public String getKey2() {
-        return key2;
+    @JsonProperty("lname")
+    public String getLname() {
+        return lname;
     }
 
-    @JsonProperty("key2")
-    public void setKey2(String key2) {
-        this.key2 = key2;
+    @JsonProperty("lname")
+    public void setLname(String lname) {
+        this.lname = lname;
     }
-
-    @JsonProperty("key1")
-    public String getKey1() {
-        return key1;
-    }
-
-    @JsonProperty("key1")
-    public void setKey1(String key1) {
-        this.key1 = key1;
-    }
-
 }
