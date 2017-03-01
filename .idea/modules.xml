@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aws-core/aws-core.iml" filepath="$PROJECT_DIR$/aws-core/aws-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aws-lambda/aws-lambda.iml" filepath="$PROJECT_DIR$/aws-lambda/aws-lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aws-lambda/lambda-parent/lambda-parent.iml" filepath="$PROJECT_DIR$/aws-lambda/lambda-parent/lambda-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aws-lambda/say-bye/say-bye.iml" filepath="$PROJECT_DIR$/aws-lambda/say-bye/say-bye.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aws-lambda/say-hello/say-hello.iml" filepath="$PROJECT_DIR$/aws-lambda/say-hello/say-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serverless-demo.iml" filepath="$PROJECT_DIR$/serverless-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-core/spring-core.iml" filepath="$PROJECT_DIR$/spring-core/spring-core.iml" />
+    </modules>
+  </component>
+</project>
