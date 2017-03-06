@@ -23,20 +23,21 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="aws-core" />
-        <module name="aws-lambda" />
+        <module name="dao-core" />
         <module name="say-bye" />
         <module name="say-hello" />
+        <module name="services-core" />
         <module name="spring-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="aws-core" target="1.5" />
-      <module name="aws-lambda" target="1.5" />
-      <module name="aws-services-client" target="1.5" />
+      <module name="dao-core" target="1.5" />
       <module name="lambda-parent" target="1.5" />
-      <module name="say-bye" target="1.5" />
-      <module name="say-hello" target="1.5" />
-      <module name="serverless-demo" target="1.5" />
+      <module name="say-bye" target="1.6" />
+      <module name="say-hello" target="1.6" />
+      <module name="serverless" target="1.5" />
+      <module name="services-core" target="1.5" />
       <module name="spring-core" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -4,6 +4,7 @@ package com.payu.config;
 import com.payu.util.ByeUtil;
 import com.payu.util.HelloUtil;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -11,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
  */
 
 @Configuration
+@ComponentScan("com.payu")
 public class SpringConfig {
 
     @Bean(name = "helloUtil")
@@ -22,4 +24,5 @@ public class SpringConfig {
     public ByeUtil getByeUtil() {
         return new ByeUtil();
     }
+
 }
