@@ -1,0 +1,121 @@
+{
+  "Records": [
+    {
+      "eventID": "b9188bd12f4a70994b19d3ab84f9e83e",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "eu-west-1",
+      "dynamodb": {
+        //"approximateCreationDateTime": "Fri Mar 24 12:37:00 UTC 2017",
+        "keys": {
+          "id": {
+            "s": "6d97aa20-5d03-472b-a828-fd28e32eeebe"
+          }
+        },
+        "newImage": {
+          "country": {
+            "s": "Nigeria"
+          },
+          "amount": {
+            "s": "35"
+          },
+          "transaction_status": {
+            "s": "PENDING"
+          },
+          "transaction_datetime": {
+            "s": "03/24/2017 12:37:11 PM"
+          },
+          "currency": {
+            "s": "NGN"
+          },
+          "id": {
+            "s": "6d97aa20-5d03-472b-a828-fd28e32eeebe"
+          },
+          "merchant_id": {
+            "s": "8ebf5c0f-2e68-4801-aa6a-ad9f8f765661"
+          },
+          "account": {
+            "s": 0
+          }
+        },
+        "sequenceNumber": "320900000000017155319501",
+        "sizeBytes": "231",
+        "streamViewType": "NEW_AND_OLD_IMAGES"
+      }
+    },
+    {
+      "eventID": "7d6ca56d7b5823a4f0baaf0e4f431f86",
+      "eventName": "MODIFY",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "eu-west-1",
+      "dynamodb": {
+        //"approximateCreationDateTime": "Fri Mar 24 12: 37:00 UTC 2017",
+        "keys": {
+          "id": {
+            "s": "6d97aa20-5d03-472b-a828-fd28e32eeebe"
+          }
+        },
+        "newImage": {
+          "country": {
+            "s": "Nigeria"
+          },
+          "amount": {
+            "n": 35
+          },
+          "transaction_status": {
+            "s": "SUCCESS"
+          },
+          "vendor_transaction_id": {
+            "s": "B8ZW8"
+          },
+          "transaction_datetime": {
+            "s": "03/24/2017 12:37:11 PM"
+          },
+          "currency": {
+            "s": "NGN"
+          },
+          "id": {
+            "s": "6d97aa20-5d03-472b-a828-fd28e32eeebe"
+          },
+          "merchant_id": {
+            "s": "8ebf5c0f-2e68-4801-aa6a-ad9f8f765661"
+          },
+          "account": {
+            "n": 0
+          }
+        },
+        "oldImage": {
+          "country": {
+            "s": "Nigeria"
+          },
+          "amount": {
+            "n": 35
+          },
+          "transaction_status": {
+            "s": "PENDING"
+          },
+          "transaction_datetime": {
+            "s": "03/24/2017 12:37:11 PM"
+          },
+          "currency": {
+            "s": "NGN"
+          },
+          "id": {
+            "s": "6d97aa20-5d03-472b-a828-fd28e32eeebe"
+          },
+          "merchant_id": {
+            "s": "8ebf5c0f-2e68-4801-aa6a-ad9f8f765661"
+          },
+          "account": {
+            "n": 0
+          }
+        },
+        "sequenceNumber": 321000000000017155319939,
+        "sizeBytes": 450,
+        "streamViewType": "NEW_AND_OLD_IMAGES"
+      }
+    }
+  ]
+}

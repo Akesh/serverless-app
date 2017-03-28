@@ -23,21 +23,22 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="aws-core" />
-        <module name="dao-core" />
-        <module name="say-bye" />
-        <module name="say-hello" />
-        <module name="services-core" />
+        <module name="partner-paga" />
+        <module name="partner-paga-to-core-transactions" />
         <module name="spring-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="aws-core" target="1.5" />
-      <module name="dao-core" target="1.5" />
-      <module name="lambda-parent" target="1.5" />
+      <module name="aws-core" target="1.8" />
+      <module name="ewallet-paga" target="1.6" />
+      <module name="ewallet-parent" target="1.8" />
+      <module name="lambda-parent" target="1.8" />
+      <module name="partner-paga" target="1.6" />
+      <module name="partner-paga-to-core-transactions" target="1.8" />
       <module name="say-bye" target="1.6" />
-      <module name="say-hello" target="1.6" />
-      <module name="serverless" target="1.5" />
-      <module name="services-core" target="1.5" />
+      <module name="say-hello" target="1.8" />
+      <module name="serverless" target="1.8" />
+      <module name="services-core" target="1.8" />
       <module name="spring-core" target="1.5" />
     </bytecodeTargetLevel>
   </component>

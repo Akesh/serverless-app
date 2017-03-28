@@ -1,3 +1,4 @@
+/*
 package com.payu.db.dao;
 
 import com.payu.db.base.repository.BaseRepository;
@@ -10,9 +11,11 @@ import org.springframework.transaction.annotation.Transactional;
 import java.io.Serializable;
 import java.util.List;
 
+*/
 /**
  * Created by akesh.patil on 04-03-2017.
- */
+ *//*
+
 @Repository
 @Transactional
 public class UserRepository extends BaseRepository {
@@ -25,3 +28,4 @@ public class UserRepository extends BaseRepository {
         return (Integer) save(user);
     }
 }
+*/

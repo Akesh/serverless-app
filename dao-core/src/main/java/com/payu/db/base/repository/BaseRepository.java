@@ -1,3 +1,4 @@
+/*
 package com.payu.db.base.repository;
 
 import org.hibernate.Session;
@@ -8,9 +9,11 @@ import org.springframework.orm.hibernate4.HibernateTemplate;
 import javax.persistence.Inheritance;
 import java.io.Serializable;
 
+*/
 /**
  * Created by akesh.patil on 04-03-2017.
- */
+ *//*
+
 
 @Inheritance
 public class BaseRepository {
@@ -27,3 +30,4 @@ public class BaseRepository {
         return id;
     }
 }
+*/

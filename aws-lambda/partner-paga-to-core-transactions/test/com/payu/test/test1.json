@@ -1,0 +1,48 @@
+{
+  "Records": [
+    {
+      "eventID": "96a81631b8c824ba23d7298dbc1ae3d4",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "eu-west-1",
+      "dynamodb": {
+        //"ApproximateCreationDateTime": "Tue Mar 28 10:35:00 UTC 2017",
+        "keys": {
+          "id": {
+            "s": "a49b60ed-6483-4c0c-9bd4-04269c9e4441"
+          }
+        },
+        "newImage": {
+          "country": {
+            "s": "Nigeria"
+          },
+          "amount": {
+            "n": 42
+          },
+          "transaction_status": {
+            "s": "PENDING"
+          },
+          "transaction_datetime": {
+            "s": "03/28/2017 10:35:49 AM"
+          },
+          "currency": {
+            "s": "NGN"
+          },
+          "id": {
+            "s": "a49b60ed-6483-4c0c-9bd4-04269c9e4441"
+          },
+          "merchant_id": {
+            "s": "8ebf5c0f-2e68-4801-aa6a-ad9f8f765661"
+          },
+          "account": {
+            "n": "52775286"
+          }
+        },
+        "sequenceNumber": 18900500000000017800600247,
+        "sizeBytes": 235,
+        "streamViewType": "NEW_AND_OLD_IMAGES"
+      }
+    }
+  ]
+}

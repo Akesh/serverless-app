@@ -13,8 +13,8 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>../say-hello</module>
-        <module>../say-bye</module>
+        <module>../partner-paga</module>
+        <module>../partner-paga-to-core-transactions</module>
     </modules>
     <dependencies>
         <dependency>
@@ -27,11 +27,11 @@
             <artifactId>aws-core</artifactId>
             <version>1.0</version>
         </dependency>
-        <dependency>
+       <!-- <dependency>
             <groupId>com.payu</groupId>
-            <artifactId>services-core</artifactId>
+            <artifactId>ewallet-parent</artifactId>
             <version>1.0</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>

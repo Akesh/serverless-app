@@ -1,3 +1,4 @@
+/*
 package com.payu.db.util;
 
 import org.hibernate.SessionFactory;
@@ -14,9 +15,11 @@ import org.springframework.orm.hibernate4.support.OpenSessionInViewFilter;
 import javax.sql.DataSource;
 import java.util.Properties;
 
+*/
 /**
  * Created by akesh.patil on 03-03-2017.
- */
+ *//*
+
 @Configuration
 public class DBConfig {
 
@@ -81,3 +84,4 @@ public class DBConfig {
 
 
 }
+*/

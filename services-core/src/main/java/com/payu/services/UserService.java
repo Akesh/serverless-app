@@ -1,3 +1,4 @@
+/*
 package com.payu.services;
 
 import com.payu.db.dao.UserRepository;
@@ -8,9 +9,11 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+*/
 /**
  * Created by akesh.patil on 04-03-2017.
- */
+ *//*
+
 
 @Service
 public class UserService extends BaseService {
@@ -26,3 +29,4 @@ public class UserService extends BaseService {
         return this.userRepository.createUser(user);
     }
 }
+*/

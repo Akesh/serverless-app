@@ -1,12 +1,15 @@
+/*
 package com.payu.db.model;
 
 import com.payu.db.base.model.BaseModel;
 
 import javax.persistence.*;
 
+*/
 /**
  * Created by akesh.patil on 04-03-2017.
- */
+ *//*
+
 @Entity
 @Table(name = "User")
 public class User extends BaseModel {
@@ -55,3 +58,4 @@ public class User extends BaseModel {
         this.address = address;
     }
 }
+*/

@@ -3,10 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aws-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aws-lambda/ewallet-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aws-lambda/lambda-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aws-lambda/partner-paga" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aws-lambda/partner-paga-to-core-transactions" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aws-lambda/say-bye" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aws-lambda/say-hello" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dao-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-core" charset="UTF-8" />
   </component>
